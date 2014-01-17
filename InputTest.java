@@ -10,8 +10,8 @@ public class InputTest
 
 		System.out.print("How old are you?");
 		int age = in.nextInt();
-
-		System.out.println("Hello " + name + ", next year you will be " + (age + 1));
+		
+		System.out.println("Hello " + name + ", next year you will be " + (age + 1) + "?");
 
 	}
 }
